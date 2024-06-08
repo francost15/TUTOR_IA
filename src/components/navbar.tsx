@@ -25,8 +25,7 @@ export default function NavBar() {
 
   return (
     <>
-    {/* bg-gradient-to-r from-indigo-900 via-purple-600 to-red-700  */}
-      <nav className="bg-gradient-to-r from-black via-gray-700 to-black flex items-center justify-between px-4 py-3 shadow-lg">
+      <nav className="bg-gradient-to-r from-indigo-900 via-purple-800 to-red-800 flex items-center justify-between px-4 py-3 shadow-lg">
         <div className="flex items-center">
           <Link href="/home" onClick={() => handleLinkClick('/home')}>
             <Image src="/logouvp.png" alt="logoevento" width={70} height={40} />

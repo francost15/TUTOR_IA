@@ -16,6 +16,7 @@ export default function ChatInput() {
         value={message}
         onChangeText={setMessage}
         placeholder="Escribe aquí lo que deseas"
+        backgroundColor='gray'
       />
       <TouchableOpacity onPress={sendMessage} style={styles.sendButton}>
         <Image source={require('../assets/images/send.png')} style={styles.sendIcon} />
